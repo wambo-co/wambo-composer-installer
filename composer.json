@@ -1,0 +1,33 @@
+{
+  "name": "wambo/wambo-composer-installer",
+  "description": "a test wambo module",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "Rene Penner",
+      "email": "rene@penner.name",
+      "role": "Developer"
+    },
+    {
+      "name": "Andy Koch",
+      "email": "andyk7@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wambo\\ComposerInstaller\\": "src/Wambo/Composerinstaller/"
+    }
+  },
+  "extra": {
+    "class": "Wambo\\ComposerInstaller\\Plugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "require-dev": {
+    "Composer/Composer": "^1.0",
+    "phpunit/phpunit": "5.4.*"
+  }
+}
+
