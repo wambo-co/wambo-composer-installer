@@ -4,5 +4,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 ### Added
-- add composer.json with type composer-plugin to run as Composer Installer
-- add WamboInstaller Class
+- basic implementation of composer installer

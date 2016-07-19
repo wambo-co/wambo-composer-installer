@@ -1,7 +1,8 @@
 {
   "name": "wambo/wambo-composer-installer",
-  "description": "a test wambo module",
+  "description": "A composer plugin to install wambo modules to a wambo project",
   "type": "composer-plugin",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Rene Penner",
@@ -16,18 +17,20 @@
   ],
   "autoload": {
     "psr-4": {
-      "Wambo\\ComposerInstaller\\": "src/Wambo/Composerinstaller/"
+      "Wambo\\ComposerInstaller\\": "src/Wambo/ComposerInstaller/"
     }
   },
   "extra": {
     "class": "Wambo\\ComposerInstaller\\Plugin"
   },
   "require": {
+    "wambo/module-core": "dev-feature/base",
     "composer-plugin-api": "^1.0"
   },
   "require-dev": {
     "Composer/Composer": "^1.0",
-    "phpunit/phpunit": "5.4.*"
+    "phpunit/phpunit": "5.4.*",
+    "squizlabs/php_codesniffer": "2.*",
+    "phpmd/phpmd" : "@stable"
   }
 }
-
