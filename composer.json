@@ -24,7 +24,7 @@
     "class": "Wambo\\ComposerInstaller\\Plugin"
   },
   "require": {
-    "wambo/module-core": "dev-develop",
+    "wambo/module-core": "*",
     "composer-plugin-api": "^1.0"
   },
   "require-dev": {
