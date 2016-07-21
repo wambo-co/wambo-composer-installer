@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "Rene Penner",
+      "name": "René Penner",
       "email": "rene@penner.name",
       "role": "Developer"
     },
@@ -24,7 +24,7 @@
     "class": "Wambo\\ComposerInstaller\\Plugin"
   },
   "require": {
-    "wambo/module-core": "dev-feature/base",
+    "wambo/module-core": "dev-develop",
     "composer-plugin-api": "^1.0"
   },
   "require-dev": {
